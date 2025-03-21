@@ -5,8 +5,14 @@ See the original paper [arXiv:2409.07707](https://arxiv.org/abs/2409.07707) for 
 ## MSD Performance Analysis
 Pandas dataframe format; for Fig. 12 and Table I.
 - `df_msd_analysis_sng.pkl`: Data for the single-level MSD scheme.
-
-**Note**: The performance analysis dataset for the cultivation-MSD scheme is too large (1.8GB) to upload to GitHub. Please contact [me](https://seokhyung-lee.github.io) directly to request access.
+- `dfs_msd_analysis_cult/`: Dataset for the cultivation-MSD scheme (split due to a large file size)
+  - Files named as `p_{p_value}_dout_{dout_value}.pkl`
+  - p values: 0.0005, 0.001
+  - dout values range from 5 to 71 for p=0.0005, and from 5 to 91 for p=0.001
+- `dfs_msd_analysis_cult_simple_growing/`채: Dataset for the cultivation-MSD scheme without post-selected growing (split due to a large file size)
+  - Files named as `p_{p_value}_dout_{dout_value}.pkl`
+  - p values: 0.0001, 0.0005, 0.001
+  - dout values range from 5 to 31 for p=0.0001, from 5 to 71 for p=0.0005, and from 5 to 91 for p=0.001
 
 ## MSD Performance Analysis under Improved Thresholds
 Pandas dataframe format; for Fig. 13.
