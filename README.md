@@ -9,7 +9,7 @@ Pandas dataframe format; for Fig. 12 and Table I.
   - Files named as `p_{p_value}_dout_{dout_value}.pkl`
   - p values: 0.0005, 0.001
   - dout values range from 5 to 71 for p=0.0005, and from 5 to 91 for p=0.001
-- `dfs_msd_analysis_cult_simple_growing/`채: Dataset for the cultivation-MSD scheme without post-selected growing (split due to a large file size)
+- `dfs_msd_analysis_cult_simple_growing/`: Dataset for the cultivation-MSD scheme without post-selected growing (split due to a large file size)
   - Files named as `p_{p_value}_dout_{dout_value}.pkl`
   - p values: 0.0001, 0.0005, 0.001
   - dout values range from 5 to 31 for p=0.0001, from 5 to 71 for p=0.0005, and from 5 to 91 for p=0.001
